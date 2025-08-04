@@ -1,0 +1,13 @@
+{
+  "name": "bhasha-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend for Bhasha AI voice assistant",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2"
+  }
+}
