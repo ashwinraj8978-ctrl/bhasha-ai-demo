@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 // Load your API route
-const aiRoute = require("./api");
+const aiRoute = require("./api/ask");
 
 app.post("/chat", aiRoute);
 
